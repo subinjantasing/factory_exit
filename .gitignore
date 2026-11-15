@@ -1,0 +1,10 @@
+# ข้อมูลที่ไม่ต้องการเผยแพร่
+*.log
+.env
+config.php
+
+# ไฟล์ชั่วคราว
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db

@@ -1,0 +1,18 @@
+# 1️⃣ เริ่มต้น Git ในโฟลเดอร์นี้
+git init
+
+# 2️⃣ ตั้งชื่อและอีเมล (ครั้งแรกเท่านั้น)
+git config user.name "subinjantasing"
+git config user.email "sub*********@*********"
+
+# 3️⃣ เพิ่มไฟล์ทั้งหมด
+git add .
+
+# 4️⃣ บันทึกเวอร์ชันแรก
+git commit -m "v1.0.0.1 Initial Release"
+
+# 5️⃣ เชื่อมต่อกับ GitHub
+git remote add origin https://github.com/subinjantasing/factory_exit.git
+
+# 6️⃣ ส่งไฟล์ขึ้น GitHub
+git push -u origin main
